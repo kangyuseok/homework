@@ -1,5 +1,6 @@
 #include<stdio.h>
 void first_branch();
+void second();
 int main(){
     printf("hello world");
     first_branch();
@@ -12,4 +13,7 @@ int main(){
 }
 void first_branch(){
     printf("first");
+}
+void second(){
+    printf("second");
 }
